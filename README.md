@@ -10,11 +10,15 @@ Meet is a django based application for making schedule
 
 
 ## Features
-- Can register user
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- user can see all appointments
+- user can see all upcoming appointment
+- user can schedule an appointment
+- can register users
+- user can update their profile
+- user can set off hours
+- can delete user
+- generate token of authentication
+- generate refresh token for authentication
 
 
 ## Tech
@@ -38,7 +42,7 @@ Meet is a django based application for making schedule
 
 having a virtual environment is good and in python3 we can do something like
 ```sh
-pyhton3 -m venv env
+python3 -m venv env
 source env/bin/activate 'activate virtual environment for mac and linux machine'
 pip install django
 django-admin startproject <your-project-name> .
@@ -54,4 +58,4 @@ django-admin startproject <your-project-name> .
 
 - [Meet-terraformers](https://meet-terraformers.herokuapp.com)
 
-> Note: `add api/ in the end of routes` is required for Routes.
+> Note: `add /api/ in the end of routes` is required for Routes.
