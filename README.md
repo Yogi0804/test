@@ -53,7 +53,7 @@ django-admin startproject <your-project-name> .
 ## Deployed
 
 ```sh
-[docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}](https://meet-terraformers.herokuapp.com)
+https://meet-terraformers.herokuapp.com
 ```
 
 > Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
