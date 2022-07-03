@@ -52,8 +52,6 @@ django-admin startproject <your-project-name> .
 
 ## Deployed
 
-```sh
-[Meet-terraformers](https://meet-terraformers.herokuapp.com)
-```
+- [Meet-terraformers](https://meet-terraformers.herokuapp.com)
 
 > Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
