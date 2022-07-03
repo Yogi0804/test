@@ -54,4 +54,4 @@ django-admin startproject <your-project-name> .
 
 - [Meet-terraformers](https://meet-terraformers.herokuapp.com)
 
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+> Note: `add api/ in the end of routes` is required for Routes.
