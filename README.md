@@ -16,7 +16,6 @@ Meet is a django based application for making schedule
 - can register users
 - user can update their profile
 - user can set off hours
-- can delete user
 - generate token of authentication
 - generate refresh token for authentication
 
@@ -34,7 +33,7 @@ Meet is a django based application for making schedule
         'POST': '/api/register/'
         'POST': '/api/UpdateProfile/id/'
         'POST': '/api/offHours/'
-        'DELETE':'/api/deleteUser/id/'
+        
         'POST': '/api/token/'
         'POST': '/api/token/refresh/'
 ```
